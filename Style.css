@@ -27,10 +27,18 @@ a,
 }
 
 /* DESKTOP NAV */
+.logo{
+  margin: 8px;
+}
 
 nav,
 .nav-links {
   display: flex;
+}
+
+#desktop-nav{
+  position: fixed;
+  
 }
 
 nav {
@@ -43,6 +51,8 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+ 
+
 }
 
 a {
