@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: white;
 }
 
 html {
@@ -27,45 +28,39 @@ a,
 }
 
 /* DESKTOP NAV */
-.logo{
-  margin: 8px;
-}
+
 
 nav,
 .nav-links {
   display: flex;
-}
 
-#desktop-nav{
-  position: fixed;
-  
 }
 
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 15vh;
+  background-color: #72CAD5;
 }
 
 .nav-links {
+  padding-top: 25px;
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
- 
-
 }
 
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: #5C415D;
 }
 
 a:hover {
-  color: rgb(218, 145, 51);
+  color: #008FC8;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(173, 94, 94);
+  text-decoration-color: #14B0C8;
 }
 
 .logo {
@@ -159,6 +154,7 @@ a:hover {
 /* SECTIONS */
 
 section {
+  margin-top: 50%;
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
@@ -173,6 +169,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+  margin-bottom: 200px;
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -181,7 +178,7 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 300px;
+  height: 400px;
   width: 400px;
   margin: auto 0;
 }
@@ -227,6 +224,7 @@ section {
 /* BUTTONS */
 
 .btn-container {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -262,6 +260,7 @@ section {
 
 .btn-color-2 {
   background: none;
+  text-decoration: none;
 }
 
 .btn-color-2:hover {
@@ -307,7 +306,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #BCF3FA;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -327,18 +326,20 @@ section {
 
 /* skill SECTION */
 
-#skill {
+
+#skills {
+  margin-top: 10%;
   position: relative;
 }
 
-.skill-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
+.skills-sub-title {
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
   margin-bottom: 50px;
 }
 
-.skill-details-container {
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -366,7 +367,31 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
+.project-description{
+  text-align: justify;
+  color: #003449;
+  /* font-size: 17px; */
+}
 
+.project-description1{
+  text-align: center;
+  font-size: 17px;
+  color: #003449;
+
+}
+.project-text {
+  color: #5C415D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  /* border: 2px solid black; */
+}
+.techstack-description{
+  text-align: center;
+  color: #003449;
+  font-weight: 700;
+  font-size: 16px;
+}
 #projects {
   position: relative;
 }
@@ -395,6 +420,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  margin-top: 40%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -441,4 +467,5 @@ footer {
 
 footer p {
   text-align: center;
+  font-size: 25px;
 }
