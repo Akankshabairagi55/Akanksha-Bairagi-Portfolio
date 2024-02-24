@@ -91,7 +91,7 @@
     font-size: 23px;
   }
   a{
-    font-size: 25px;
+    font-size: 17px;
   }
   .contact-info-upper-container{
     display: block;
@@ -102,16 +102,14 @@
   #contact{
     margin-top: 10%;
   }
-  footer {
-    height: 10vh;
-  }
+  
 }
 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
     margin-bottom: 50px;
-    height: 40vh;
+    /* height: 40vh; */
   }
   #profile {
     height: 83vh;
@@ -132,9 +130,11 @@
   .contact-info-container {
     margin: 5px;
   }
-  .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
+  }
+  .contact-info-container p{
+    font-size: 1.5rem;
   }
   .experience-sub-title {
     font-size: 1.25rem;
