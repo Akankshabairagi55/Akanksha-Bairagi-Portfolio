@@ -12,6 +12,16 @@
   }
 }
 
+
+@media screen and (max-width: 900px) and (min-width: 800px) {
+  a {
+    font-size: 35px;
+  }
+  footer p {
+    font-size: 35px;
+    margin-top: 10%;
+  }
+}
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
