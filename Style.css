@@ -343,6 +343,11 @@ section {
   position: relative;
 }
 
+i{
+  margin-top: 6px;
+
+}
+
 .skills-sub-title {
   color: black;
   font-weight: 900;
